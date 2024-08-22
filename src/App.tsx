@@ -54,7 +54,8 @@ function App() {
             <button className="bg-black hover:bg-gray-700 text-white font-bold py-2 px-4 rounded inline-flex items-center mt-10">
               <a
                 className="flex justify-center items-center gap-1"
-                href="https://your-link.com"
+                href="https://ordspillkongen.no"
+                target="_blank"
               >
                 <MdOutlineShoppingCart className="text-white" />
 
