@@ -12,7 +12,7 @@ function App() {
         <img src={dlflogo} alt="Logo" className="h-10" />
       </header>
       <div
-        className="min-h-screen bg-cover bg-center font-display"
+        className="min-h-screen bg-cover  bg-center font-display"
         style={{ backgroundImage: `url(${background})` }}
       >
         <main className="md:p-20 p-5 flex items-center justify-center h-full opacity-90">
