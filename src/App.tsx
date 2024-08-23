@@ -8,8 +8,12 @@ function App() {
   return (
     <>
       <header className="p-5 bg-white shadow-md border border-b-2 border-black sticky top-0 z-50 flex justify-between">
-        <img src={pelogo} alt="Logo" className="h-10" />
-        <img src={dlflogo} alt="Logo" className="h-10" />
+        <a href="https://www.pitchevent.no/" target="_blank" rel="noopener noreferrer">
+    <img src={pelogo} alt="Logo" className="h-10" />
+</a>
+        <a href="https://www.dlf.no/" target="_blank" rel="noopener noreferrer">
+    <img src={dlflogo} alt="Logo" className="h-10" />
+</a>
       </header>
       <div
         className="min-h-screen bg-cover  bg-center font-display"
