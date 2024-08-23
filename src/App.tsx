@@ -6,7 +6,7 @@ import { MdOutlineShoppingCart } from "react-icons/md";
 
 function App() {
   return (
-    <>
+    <div className="min-h-dvh flex flex-col">
       <header className="p-5 bg-white shadow-md border border-b-2 border-black z-50 flex justify-between">
         <a
           href="https://www.pitchevent.no/"
@@ -20,7 +20,7 @@ function App() {
         </a>
       </header>
       <div
-        className="min-h-screen bg-cover  bg-center font-display"
+        className=" grow bg-cover  bg-center font-display"
         style={{ backgroundImage: `url(${background})` }}
       >
         <main className="md:p-20 p-5 flex items-center justify-center h-full opacity-90">
@@ -73,7 +73,7 @@ function App() {
           </div>
         </main>
       </div>
-    </>
+    </div>
   );
 }
 
