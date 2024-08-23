@@ -7,13 +7,17 @@ import { MdOutlineShoppingCart } from "react-icons/md";
 function App() {
   return (
     <>
-      <header className="p-5 bg-white shadow-md border border-b-2 border-black sticky top-0 z-50 flex justify-between">
-        <a href="https://www.pitchevent.no/" target="_blank" rel="noopener noreferrer">
-    <img src={pelogo} alt="Logo" className="h-10" />
-</a>
+      <header className="p-5 bg-white shadow-md border border-b-2 border-black z-50 flex justify-between">
+        <a
+          href="https://www.pitchevent.no/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={pelogo} alt="Logo" className="h-10" />
+        </a>
         <a href="https://www.dlf.no/" target="_blank" rel="noopener noreferrer">
-    <img src={dlflogo} alt="Logo" className="h-10" />
-</a>
+          <img src={dlflogo} alt="Logo" className="h-10" />
+        </a>
       </header>
       <div
         className="min-h-screen bg-cover  bg-center font-display"
@@ -22,7 +26,7 @@ function App() {
         <main className="md:p-20 p-5 flex items-center justify-center h-full opacity-90">
           <div className=" p-5 md:p-20 bg-white rounded shadow-lg text-center text-black">
             <h1 className="text-3xl">
-              Velkommen til DLF Høstmøte torsdag 19. oktober i Tønsberg!
+              Velkommen til DLF Høstmøte torsdag 17. oktober i Tønsberg!
             </h1>
             <div className="mt-10 md:px-20 text-left">
               <p className="text-lg mt-2">
@@ -32,17 +36,17 @@ function App() {
               <h2 className="text-xl mt-4">Pris og påmelding</h2>
               <ul className="list-disc mt-2">
                 <li className="list-inside">
-                  Konferanseavgift kr. 6.390,- eks. mva., inkluderer fagdag og
+                  Konferanseavgift kr. 6.590,- eks. mva., inkluderer fagdag og
                   middag.
                 </li>
                 <li className="list-inside">
-                  Overnatting kr. 1.300,- eks. mva. per natt.
+                  Overnatting kr. 1.400,- eks. mva. per natt.
                 </li>
                 <li className="list-inside">
                   Presse betaler kun for eventuell overnatting.
                 </li>
                 <li className="list-inside">
-                  Digital tilgang på fagdagen kr. 450,- eks. mva.
+                  Digital tilgang på fagdagen kr. 470,- eks. mva.
                 </li>
               </ul>
               <p className="mt-4 text-l">
