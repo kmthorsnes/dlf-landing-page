@@ -8,7 +8,6 @@ function App() {
   return (
     <div className="min-h-dvh flex flex-col">
       <header className="p-5 bg-white shadow-md border border-b-2 border-black z-50 flex justify-between">
-
         <a href="https://www.dlf.no/" target="_blank" rel="noopener noreferrer">
           <img src={dlflogo} alt="Logo" className="h-10" />
         </a>
@@ -72,9 +71,17 @@ function App() {
               async
             ></script>
           </div>
-          <footer>
-            Utviklet av <a href="https://www.p-e.no" target="_blank" rel="noopener noreferrer">Pitch event</a>
-          </footer>
+        </main>
+        <footer>
+          Utviklet av{" "}
+          <a
+            href="https://www.p-e.no"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Pitch event
+          </a>
+        </footer>
       </div>
     </div>
   );
