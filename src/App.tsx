@@ -8,13 +8,7 @@ function App() {
   return (
     <div className="min-h-dvh flex flex-col">
       <header className="p-5 bg-white shadow-md border border-b-2 border-black z-50 flex justify-between">
-        <a
-          href="https://www.pitchevent.no/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={pelogo} alt="Logo" className="h-10" />
-        </a>
+
         <a href="https://www.dlf.no/" target="_blank" rel="noopener noreferrer">
           <img src={dlflogo} alt="Logo" className="h-10" />
         </a>
@@ -59,8 +53,7 @@ function App() {
               </p>
             </div>
 
-
-            <button className="bg-black hover:bg-gray-700 text-white font-bold py-2 px-4 rounded inline-flex items-center mt-10">
+            {/* <button className="bg-black hover:bg-gray-700 text-white font-bold py-2 px-4 rounded inline-flex items-center mt-10">
               <a
                 className="flex justify-center items-center gap-1"
                 href="https://event.checkin.no/78425/dlf-hostmote-2024"
@@ -70,9 +63,18 @@ function App() {
 
                 <span className="text-white">Meld deg på her</span>
               </a>
-            </button>
+            </button> */}
+
+            <div id="checkin_registration"></div>
+            <script
+              src="https://registration.checkin.no/registration.loader.js"
+              data-event-id="78425"
+              async
+            ></script>
           </div>
-        </main>
+          <footer>
+            Utviklet av <a href="https://www.p-e.no" target="_blank" rel="noopener noreferrer">Pitch event</a>
+          </footer>
       </div>
     </div>
   );
