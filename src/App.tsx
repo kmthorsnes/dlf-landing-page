@@ -52,17 +52,6 @@ function App() {
               </p>
             </div>
 
-            {/* <button className="bg-black hover:bg-gray-700 text-white font-bold py-2 px-4 rounded inline-flex items-center mt-10">
-              <a
-                className="flex justify-center items-center gap-1"
-                href="https://event.checkin.no/78425/dlf-hostmote-2024"
-                target="_blank"
-              >
-                <MdOutlineShoppingCart className="text-white" />
-
-                <span className="text-white">Meld deg på her</span>
-              </a>
-            </button> */}
 
             <div id="checkin_registration"></div>
             <script
