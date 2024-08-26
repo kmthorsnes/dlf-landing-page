@@ -59,6 +59,12 @@ function App() {
               </p>
             </div>
 
+
+
+Kopier
+<div id="checkin_registration"></div>
+<script src="https://registration.checkin.no/registration.loader.js" data-event-id="78425" async></script>
+
             <button className="bg-black hover:bg-gray-700 text-white font-bold py-2 px-4 rounded inline-flex items-center mt-10">
               <a
                 className="flex justify-center items-center gap-1"
