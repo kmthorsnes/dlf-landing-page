@@ -1,8 +1,8 @@
 import dlflogo from "./assets/dlflogo.webp";
-import pelogo from "./assets/pelogo.png";
+// import pelogo from "./assets/pelogo.png";
 import background from "./assets/tonsberg2.jpg";
 import "./App.css";
-import { MdOutlineShoppingCart } from "react-icons/md";
+// import { MdOutlineShoppingCart } from "react-icons/md";
 
 function App() {
   return (
