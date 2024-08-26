@@ -52,7 +52,6 @@ function App() {
               </p>
             </div>
 
-
             <div id="checkin_registration"></div>
             <script
               src="https://registration.checkin.no/registration.loader.js"
@@ -64,7 +63,7 @@ function App() {
         <footer>
           Utviklet av{" "}
           <a
-            href="https://www.p-e.no"
+            href="https://www.pitchevent.no"
             target="_blank"
             rel="noopener noreferrer"
           >
