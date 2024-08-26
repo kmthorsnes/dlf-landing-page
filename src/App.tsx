@@ -51,13 +51,8 @@ function App() {
                 Vi minner om at påmeldingen er bindende.
               </p>
             </div>
-
             <div id="checkin_registration"></div>
-            <script
-              src="https://registration.checkin.no/registration.loader.js"
-              data-event-id="78425"
-              async
-            ></script>
+            balle
           </div>
         </main>
         <footer>
