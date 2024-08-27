@@ -70,8 +70,7 @@ function App() {
                 </div>
                 <div id="checkin_registration"></div>
                 <p className="italic p-8">
-                  Hvis bestillingsskjemaet ikke vises riktig, kan du klikke på
-                  denne linken{" "}
+                  Hvis bestillingsskjemaet ikke vises riktig, kan du klikke på{" "}
                   <a
                     href="https://event.checkin.no/78425/dlf-hostmote-2024"
                     target="_blank"
