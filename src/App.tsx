@@ -32,7 +32,7 @@ function App() {
           className=" grow bg-cover flex flex-col  bg-center font-display"
           style={{ backgroundImage: `url(${background})` }}
         >
-          <main className="grow md:p-20 p-5 flex justify-center h-full opacity-90">
+          <main className="grow md:p-20 p-5 flex justify-center h-full">
             <div className=" md:p-20 bg-white rounded shadow-lg text-center text-black">
               <div className="p-5">
                 <h1 className="text-3xl text-headerGreen">
@@ -69,17 +69,7 @@ function App() {
                   </p>
                 </div>
                 <div id="checkin_registration"></div>
-                <p className="italic p-8">
-                  Hvis bestillingsskjemaet ikke vises riktig, kan du klikke på{" "}
-                  <a
-                    href="https://event.checkin.no/78425/dlf-hostmote-2024"
-                    target="_blank"
-                    className="underline text-buttonOrrange"
-                  >
-                    denne linken
-                  </a>{" "}
-                  for å åpne skjemaet i en egen fane.
-                </p>
+
               </div>
             </div>
           </main>
