@@ -1,6 +1,7 @@
 import dlflogo from "./assets/dlflogo.webp";
 import pelogo from "./assets/pelogo.png";
 import background from "./assets/tonsberg2.jpg";
+import EventRegistrationForm from "@checkin.no/event-registration-react";
 import "./App.css";
 
 function App() {
@@ -68,8 +69,7 @@ function App() {
                     Vi minner om at påmeldingen er bindende.
                   </p>
                 </div>
-                <div id="checkin_registration"></div>
-
+                <EventRegistrationForm eventId={78425} />
               </div>
             </div>
           </main>
