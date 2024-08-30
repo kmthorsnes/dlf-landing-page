@@ -30,7 +30,7 @@ function App() {
           </a>
         </header>
         <div
-          className=" grow bg-cover flex flex-col  bg-center font-display"
+          className="grow h-96 flex bg-cover flex-col  bg-center font-display"
           style={{ backgroundImage: `url(${background})` }}
         >
           <main className="grow md:p-20 p-5 flex justify-center h-full">
