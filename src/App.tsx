@@ -16,6 +16,11 @@ function App() {
         #checkin_registration button.plus, button.btn-success {
           background-color: #ff6900 !important;
         }
+        @media screen and (max-width: 500px) {
+          #checkin_registration .registration--body, .checkin_registration .registration--body {
+              padding: 5px;
+          }
+      }
 
     `}
       </style>
@@ -30,12 +35,12 @@ function App() {
           </a>
         </header>
         <div
-          className="grow h-96 flex bg-cover flex-col  bg-center font-display"
+          className="grow h-[100px] flex bg-cover flex-col  bg-center font-display"
           style={{ backgroundImage: `url(${background})` }}
         >
           <main className="grow md:p-20 p-5 flex justify-center h-full">
             <div className=" md:p-20 bg-white rounded shadow-lg text-center text-black">
-              <div className="p-5">
+              <div className="px-5">
                 <h1 className="text-3xl text-headerGreen">
                   Velkommen til DLF Høstmøte torsdag 17. oktober i Tønsberg!
                 </h1>
