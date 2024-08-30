@@ -40,7 +40,7 @@ function App() {
         >
           <main className="grow md:p-20 p-5 flex justify-center h-full">
             <div className=" md:p-20 bg-white rounded shadow-lg text-center text-black">
-              <div className="px-5">
+              <div className="px-5 pt-5">
                 <h1 className="text-3xl text-headerGreen">
                   Velkommen til DLF Høstmøte torsdag 17. oktober i Tønsberg!
                 </h1>
