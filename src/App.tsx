@@ -1,6 +1,6 @@
 import dlflogo from "./assets/dlflogo.webp";
 import pelogo from "./assets/pelogo.png";
-import background from "./assets/tonsberg2.jpg";
+import background from "./assets/tonsberg3.jpg";
 import EventRegistrationForm from "@checkin.no/event-registration-react";
 import "./App.css";
 
@@ -10,6 +10,7 @@ function App() {
       {" "}
       <style>
         {`
+        .background-controller {  background-size: auto 2500px}
         #checkin_registration h2, h4  {
           color: #006983 !important;
         }
@@ -35,11 +36,11 @@ function App() {
           </a>
         </header>
         <div
-          className="grow h-auto flex bg-cover flex-col  bg-top font-display"
+          className="background-controller grow h-auto flex bg-cover flex-col  bg-top font-display"
           style={{ backgroundImage: `url(${background})` }}
         >
           <main className="grow md:p-20 p-5 flex justify-center ">
-            <div className=" md:p-20 bg-white rounded shadow-lg text-center text-black">
+            <div className="md:p-20 bg-white rounded shadow-lg text-center text-black">
               <div className="px-5 pt-5">
                 <h1 className="text-3xl text-headerGreen">
                   Velkommen til DLF Høstmøte torsdag 17. oktober i Tønsberg!
