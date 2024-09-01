@@ -46,7 +46,7 @@ function App() {
                 </h1>
                 <div className="max-w-[700px] p-8  text-left">
                   <p className="text-lg mt-2">
-                    Registrering fra kl. 09:30. Konferansedagen starter presis
+                    Registrering fra kl. 09:15. Konferansedagen starter presis
                     kl. 10:00.
                   </p>
                   <h2 className="text-xl mt-4">Pris og påmelding</h2>
