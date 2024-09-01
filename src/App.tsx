@@ -84,6 +84,43 @@ function App() {
           </main>
 
           <footer>
+            <p className="text-xs bg-gray-50 opacity-30 inline">
+              <a
+                rel="noopener noreferrer"
+                href="https://www.flickr.com/photos/67975030@N00/2425392097"
+                className="text-blue-500 underline"
+              >
+                Tønsberg brygge
+              </a>{" "}
+              by{" "}
+              <a
+                rel="noopener noreferrer"
+                href="https://www.flickr.com/photos/67975030@N00"
+                className="text-blue-500 underline"
+              >
+                Bernt Rostad
+              </a>{" "}
+              is licensed under{" "}
+              <a
+                rel="noopener noreferrer"
+                href="https://creativecommons.org/licenses/by/2.0/?ref=openverse"
+                className="text-blue-500 underline"
+              >
+                CC BY 2.0
+                <img
+                  src="https://mirrors.creativecommons.org/presskit/icons/cc.svg"
+                  alt="Creative Commons icon"
+                  className="inline-block h-4 mr-1"
+                />
+                <img
+                  src="https://mirrors.creativecommons.org/presskit/icons/by.svg"
+                  alt="Attribution icon"
+                  className="inline-block h-4 mr-1"
+                />
+              </a>
+              .
+            </p>
+
             <div className="justify-center flex align-middle w-full bg-white text-justify p-2 ">
               <p>
                 {" "}
