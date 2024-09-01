@@ -35,10 +35,10 @@ function App() {
           </a>
         </header>
         <div
-          className="grow h-[100px] flex bg-cover flex-col  bg-center font-display"
+          className="grow h-auto flex bg-cover flex-col  bg-top font-display"
           style={{ backgroundImage: `url(${background})` }}
         >
-          <main className="grow md:p-20 p-5 flex justify-center h-full">
+          <main className="grow md:p-20 p-5 flex justify-center ">
             <div className=" md:p-20 bg-white rounded shadow-lg text-center text-black">
               <div className="px-5 pt-5">
                 <h1 className="text-3xl text-headerGreen">
@@ -69,7 +69,10 @@ function App() {
                     Dersom du ikke har anledning til å delta på middagen, ber vi
                     om å få beskjed om dette med hensyn til planleggingen.
                   </p>
-
+                  <p className="text-l  mt-4">
+                    Dette arrangementet er kun åpent for DLFs medlemsbedrifter
+                    og inviterte gjester
+                  </p>
                   <p className="text-l font-bold mt-4">
                     Vi minner om at påmeldingen er bindende.
                   </p>
