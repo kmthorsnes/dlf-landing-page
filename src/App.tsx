@@ -56,7 +56,7 @@ function App() {
                       Konferanseavgift kr. 6.590,- eks. mva., inkluderer fagdag, middag og registreringsgebyr.
                     </li>
                     <li className="list-inside">
-                      Overnatting kr. 1.400,- eks. mva. per natt.
+                      Overnatting kr. 1.412,- eks. mva. per natt.
                     </li>
                     <li className="list-inside">
                       Presse betaler kun for eventuell overnatting.
