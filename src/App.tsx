@@ -53,7 +53,7 @@ function App() {
                   <h2 className="text-xl mt-4">Pris og påmelding</h2>
                   <ul className="list-disc mt-2">
                     <li className="list-inside">
-                      Konferanseavgift kr. 6.590,- eks. mva., inkluderer fagdag, middag og registreringsgebyr.
+                      Konferanseavgift kr. 6.590,- eks. mva., inkluderer fagdag og middag.
                     </li>
                     <li className="list-inside">
                       Overnatting kr. 1.412,- eks. mva. per natt.
