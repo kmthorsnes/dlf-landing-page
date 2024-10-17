@@ -45,31 +45,19 @@ function App() {
                 <h1 className="text-3xl text-headerGreen">
                   Velkommen til DLF Høstmøte torsdag 17. oktober i Tønsberg!
                 </h1>
-                <div className="max-w-[700px] p-8  text-left">
-                  <p className="text-lg mt-2">
+                <div className="max-w-[700px] p-8 text-left">
+                <h2 className="text-xl mt-4 font-bold italic">Arrangementet er nå fullbooket, men det er fortsatt mulig å følge arrangementet digitalt</h2>
+                  <p className=" mt-4">
                     Registrering fra kl. 09:15. Konferansedagen starter presis
                     kl. 10:00.
                   </p>
-                  <h2 className="text-xl mt-4">Pris og påmelding</h2>
+                  <h2 className="text-xl mt-6">Pris og påmelding</h2>
                   <ul className="list-disc mt-2">
-                    <li className="list-inside">
-                      Konferanseavgift kr. 6.590,- eks. mva., inkluderer fagdag og middag.
-                    </li>
-                    <li className="list-inside">
-                      Overnatting kr. 1.412,- eks. mva. per natt.
-                    </li>
-                    <li className="list-inside">
-                      Presse betaler kun for eventuell overnatting.
-                    </li>
                     <li className="list-inside">
                       Digital tilgang på fagdagen kr. 470,- eks. mva.
                     </li>
                   </ul>
-                  <p className="mt-4 text-l">
-                    Dersom du ikke har anledning til å delta på middagen, ber vi
-                    om å få beskjed om dette med hensyn til planleggingen.
-                  </p>
-                  <p className="text-l  mt-4">
+                  <p className="text-l  mt-6">
                     Dette arrangementet er kun åpent for DLFs medlemsbedrifter
                     og inviterte gjester
                   </p>
