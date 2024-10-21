@@ -1,128 +1,20 @@
-import dlflogo from "./assets/dlflogo.webp";
-import pelogo from "./assets/pelogo.png";
-import background from "./assets/tonsberg3.jpg";
-import EventRegistrationForm from "@checkin.no/event-registration-react";
+import finalbackground from "./assets/final_background.png"
 import "./App.css";
 
 function App() {
   return (
-    <>
-      {" "}
-      <style>
-        {`
-        .background-controller {  background-size: auto 2500px}
-        #checkin_registration h2, h4  {
-          color: #006983 !important;
-        }
-        #checkin_registration button.plus, button.btn-success {
-          background-color: #ff6900 !important;
-        }
-        @media screen and (max-width: 500px) {
-          #checkin_registration .registration--body, .checkin_registration .registration--body {
-              padding: 5px;
-          }
-      }
+    <>  
+      <div className="flex h-screen flex-col">
 
-    `}
-      </style>
-      <div className="min-h-[1850px] flex flex-col">
-        <header className="p-5 bg-white shadow-md border border-b-2 border-black z-50 flex justify-between">
-          <a
-            href="https://www.dlf.no/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={dlflogo} alt="Logo" className="h-10" />
-          </a>
-        </header>
         <div
-          className="background-controller grow h-auto flex bg-cover flex-col  bg-top font-display"
-          style={{ backgroundImage: `url(${background})` }}
+          className="grow flex"
+          
         >
-          <main className="grow md:p-20 p-5 flex justify-center ">
-            <div className="md:p-20 bg-white rounded shadow-lg text-center text-black">
-              <div className="px-5 pt-5">
-                <h1 className="text-3xl text-headerGreen">
-                  Velkommen til DLF Høstmøte torsdag 17. oktober i Tønsberg!
-                </h1>
-                <div className="max-w-[700px] p-8 text-left">
-                <h2 className="text-xl mt-4 font-bold italic">Arrangementet er nå fullbooket, men det er fortsatt mulig å følge arrangementet digitalt</h2>
-                  <p className=" mt-4">
-                    Registrering fra kl. 09:15. Konferansedagen starter presis
-                    kl. 10:00.
-                  </p>
-                  <h2 className="text-xl mt-6">Pris og påmelding</h2>
-                  <ul className="list-disc mt-2">
-                    <li className="list-inside">
-                      Digital tilgang på fagdagen kr. 470,- eks. mva.
-                    </li>
-                  </ul>
-                  <p className="text-l  mt-6">
-                    Dette arrangementet er kun åpent for DLFs medlemsbedrifter
-                    og inviterte gjester
-                  </p>
-                  <p className="text-l font-bold mt-4">
-                    Vi minner om at påmeldingen er bindende.
-                  </p>
-                </div>
-                <EventRegistrationForm eventId={78425} />
-              </div>
-            </div>
-          </main>
+          <img src={finalbackground} alt="Dlf 2025 - save the date"  className="object-scale-down	"	 />
+        
 
-          <footer>
-            <p className="text-xs bg-gray-50 opacity-30 inline">
-              <a
-                rel="noopener noreferrer"
-                href="https://www.flickr.com/photos/67975030@N00/2425392097"
-                className="text-blue-500 underline"
-              >
-                Tønsberg brygge
-              </a>{" "}
-              by{" "}
-              <a
-                rel="noopener noreferrer"
-                href="https://www.flickr.com/photos/67975030@N00"
-                className="text-blue-500 underline"
-              >
-                Bernt Rostad
-              </a>{" "}
-              is licensed under{" "}
-              <a
-                rel="noopener noreferrer"
-                href="https://creativecommons.org/licenses/by/2.0/?ref=openverse"
-                className="text-blue-500 underline"
-              >
-                CC BY 2.0
-                <img
-                  src="https://mirrors.creativecommons.org/presskit/icons/cc.svg"
-                  alt="Creative Commons icon"
-                  className="inline-block h-4 mr-1"
-                />
-                <img
-                  src="https://mirrors.creativecommons.org/presskit/icons/by.svg"
-                  alt="Attribution icon"
-                  className="inline-block h-4 mr-1"
-                />
-              </a>
-              .
-            </p>
-
-            <div className="justify-center flex align-middle w-full bg-white text-justify p-2 ">
-              <p>
-                {" "}
-                Utviklet av{" "}
-                <a
-                  href="https://www.pitchevent.no"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={pelogo} className="h-10 ml-1 inline" />
-                </a>
-              </p>
-            </div>
-          </footer>
         </div>
+        
       </div>
     </>
   );
